@@ -3,24 +3,13 @@
     {
         "title":
         {
-            "image" : "modpack:title/domcraft.png",
+            "image" : "modpack:title/logo.png",
             "posX" : -137,
             "posY" : 30,
             "width" : 275,
             "height" : 50,
             "imageWidth" : 1606,
             "imageHeigth" : 319,
-            "hoverImage" : "modpack:title/domcraft2.png",
-            "alignment" : "top_center"
-        },
-        
-        "edition":
-        {
-            "image" : "custommainmenu:textures/gui/edition.png",
-            "posX" : -49,
-            "posY" : 67,
-            "width" : 128,
-            "height" : 16,
             "alignment" : "top_center"
         }
     },
@@ -29,21 +18,21 @@
     {
         "singleplayer":
         {
-            "text" : "menu.singleplayer",
+            "text" : "Play jadcraft",
             "posX" : -100,
             "posY" : 48,
             "width" : 200,
             "height" : 20,
             "action" : 
             {
-                "type" : "openGui",
-                "gui" : "singleplayer"
+                "type" : "connectToServer",
+                "ip" : "play.jad.red"
             }
         },
         
         "multiplayer":
         {
-            "text" : "menu.multiplayer",
+            "text" : "menu.singleplayer",
             "posX" : -100,
             "posY" : 72,
             "width" : 200,
@@ -51,7 +40,7 @@
             "action" : 
             {
                 "type" : "openGui",
-                "gui" : "multiplayer"
+                "gui" : "singleplayer"
             }
         },
 
@@ -95,35 +84,6 @@
             {
                 "type" : "quit"
             }
-        },
-        
-        "Chungon":
-        {
-            "text" : "",
-            "posX" : -124,
-            "posY" : 132,
-            "width" : 20,
-            "height" : 20,
-            "texture" : "modpack:buttons/Chungontexture.png",
-            "action" : 
-            {
-                "type" : "openLink",
-                "link" : "https://discord.gg/CzwrbuH"
-            }
-        },
-        
-        "refresh":
-        {
-            "text" : "",
-            "posX" : -154,
-            "posY" : 132,
-            "width" : 20,
-            "height" : 20,
-            "texture" : "custommainmenu:textures/gui/buttons.png",
-            "action" : 
-            {
-                "type" : "refresh"
-            }
         }
     },
     
@@ -131,8 +91,7 @@
     {
         "mojang":
         {
-            "text" : "Copyright Mojang AB. Do not distribute!",
-            "hoverText" : "§nBig Big Chungus Big Chungus Big Chungus funny!",
+            "text" : "Click for free girlfriend",
             "posX" : -197,
             "posY" : -10,
             "color" : -1,
@@ -140,7 +99,7 @@
             "action" : 
             {
                 "type" : "openLink",
-                "link" : "https://www.youtube.com/watch?v=cB4dYfFgaME"
+                "link" : "JUST KIDDING Pepega Clap Pepega Clap L_? L_? 7777777777777777777777"
             }
         },
 
@@ -164,10 +123,10 @@
             "alignment" : "top_center",
             "texts" : "file:modpack:texts/splashes.txt"
         },
-        
+
         "panorama":
         {
-            "images" : "modpack:panorama/panorama_%c.png",
+            "images" : "modpack:panorama.png",
             "animate" : true,
             "animationSpeed" : 1,
             "blur" : true,
